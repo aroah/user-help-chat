@@ -29,7 +29,8 @@ create_embeddings()
 
 
 import streamlit as st
-st.title("Query the OnSolve Platform User Guide")
+st.title("OnSolve Platform User Guide")
+st.subheader("Chat with the User Guide")
 st.info("Disclaimer: This is a Minimum Viable Product (MVP) built in a few hours and is provided 'as-is' for testing and feedback purposes only. It may contain bugs, errors, or incomplete features.  ")
 
 # Initialize chat history
